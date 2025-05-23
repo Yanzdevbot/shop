@@ -75,8 +75,14 @@ footer {
   background-color: #111;
   text-align: center;
   padding: 1rem;
-  margin-top: auto; /* Jarak dari konten terakhir */
-  position: relative; /* Bukan fixed */
+  margin-top: auto; /* Posisikan di bagian bawah */
+  position: sticky;
+  bottom: 0;
+}
+
+main {
+  flex: 1;
+  padding-bottom: 80px; /* Sesuaikan dengan tinggi footer */
 }
 
 #bg-video {
