@@ -80,10 +80,6 @@ footer {
   bottom: 0;
 }
 
-main {
-  flex: 1;
-  padding-bottom: 80px; /* Sesuaikan dengan tinggi footer */
-}
 
 #bg-video {
   position: fixed;
