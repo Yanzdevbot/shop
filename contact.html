@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>YanzMods Panel</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang</a>
+      <a href="products.html">Produk</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+
+  <video autoplay muted loop id="bg-video">
+    <source src="video.mp4" type="video/mp4" />
+  </video>
+
+  <div class="music-control">
+    <button onclick="toggleMusic()">♡</button>
+    <audio id="bg-music" loop>
+      <source src="musik.mp3" type="audio/mpeg" />
+    </audio>
+  </div>
+
+  <main>
+    <h2>Hubungi Kami</h2><p>
+    Whatsapp: +6288214803771 
+  |  Email: daranban0@gmail.com</p>
+  </main>
+
+  <footer>&copy; 2025 YanzMods</footer>
+
+  <script>
+    function toggleMusic() {
+      const music = document.getElementById('bg-music');
+      if (music.paused) music.play();
+      else music.pause();
+    }
+  </script>
+</body>
+</html>
