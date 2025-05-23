@@ -75,9 +75,13 @@ footer {
   background-color: #111;
   text-align: center;
   padding: 1rem;
-  margin-top: 3rem; /* Jarak dari konten terakhir */
-  position: relative; /* Bukan fixed */
-}
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 50; /* Lebih rendah dari music control */
+  margin-top: 0; /* Hapus margin sebelumnya */
+  }
 
 
 #bg-video {
